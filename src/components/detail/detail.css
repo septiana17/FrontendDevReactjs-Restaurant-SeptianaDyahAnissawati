@@ -1,0 +1,20 @@
+.detail {
+    padding-top: 7rem;
+}
+
+.detail_image {
+    gap: 2rem;
+}
+
+.detail_image p {
+    font-size: 20px;
+}
+
+.detail_review {
+    padding-top: 4rem;
+}
+
+.details {
+    padding: 1rem;
+    gap: 2rem;
+}

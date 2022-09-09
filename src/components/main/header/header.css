@@ -1,0 +1,9 @@
+header {
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.container_header p {
+    width: 50%;
+    color: rgb(148, 148, 148);
+}

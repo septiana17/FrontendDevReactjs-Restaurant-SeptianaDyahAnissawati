@@ -1,0 +1,21 @@
+.section {
+    padding-top: 3rem;
+}
+
+.card_restaurant {
+    padding: 20px;
+}
+
+.hijau {
+    background-color: green;
+}
+
+.merah {
+    background-color: red;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
