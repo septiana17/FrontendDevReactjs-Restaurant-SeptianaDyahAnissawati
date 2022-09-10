@@ -4,6 +4,7 @@ import axios from 'axios'
 import {Card, Container, Row, Col, Button} from "react-bootstrap"
 import { AiOutlineStar, AiFillStar } from 'react-icons/ai'
 import Rating from 'react-rating'
+import { Link } from 'react-router-dom'
 
 const Section = props => {  
   const [restaurants, setRestaurants] = useState ([]);
@@ -60,7 +61,13 @@ const Section = props => {
           <p className='d-flex align-items-center'>
           <div className='square hijau mx-2'></div>Open Now</p>
         </div>
-        <Button variant="primary" className='w-100'>LEARN MORE</Button>
+        <Button variant="primary" className='w-100'>
+          <Link className="text-light" to={{ 
+            pathname: `/detailview/${restaurant.id}`
+          }} state= {{ restaurant: restaurant.businessname}}>
+            DETAIL VIEW
+            </Link>
+          </Button>
       </Card.Body>
       </Card>
     </Col>
